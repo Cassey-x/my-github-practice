@@ -16,6 +16,7 @@ match operator:
             print("You tried to divide by zero which is invalid")
         else:
             result = num1 / num2
+# The underscore in python means every other data input, its like saying the complement of the above cases
     case _:
         result = None
         print("invalid operator")
